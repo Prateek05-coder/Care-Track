@@ -1,0 +1,250 @@
+.account-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background: transparent;
+}
+
+.account-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 36px 32px 32px 32px;
+  max-width: 370px;
+  width: 100%;
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 28px;
+  color: #1976d2;
+  text-align: center;
+}
+
+.account-signin-options {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  align-items: center;
+}
+
+.account-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.08rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  background: #f7f8fa;
+  color: #222;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+.account-btn:hover {
+  background: #e3eafc;
+}
+
+.google-btn {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+}
+
+.google-btn:hover {
+  background: #f1f8ff;
+}
+
+.email-btn {
+  background: #f7f8fa;
+}
+
+.phone-btn {
+  background: #f7f8fa;
+}
+
+.account-btn-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.account-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.account-form input {
+  padding: 9px 12px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.account-form .submit-btn {
+  background: #1976d2;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.account-form .submit-btn:hover {
+  background: #1565c0;
+}
+
+.account-form-switch {
+  text-align: center;
+  margin-top: 6px;
+  font-size: 0.97rem;
+  
+}
+
+.account-link {
+  background: none;
+  border: none;
+  color: #1976d2;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 1em;
+  padding: 0;
+}
+
+.account-error {
+  color: #d32f2f;
+  background: #fdecea;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.account-user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.account-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #e3eafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #1976d2;
+  overflow: hidden;
+}
+
+.account-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.account-user-email {
+  font-size: 1.1rem;
+  color: #1976d2;
+  font-weight: 600;
+}
+
+.signout-btn {
+  background: #d32f2f;
+  color: #fff;
+}
+
+.signout-btn:hover {
+  background: #b71c1c;
+}
+/* Optional: Style for the show/hide password button */
+.show-password-btn {
+  outline: none;
+}
+/* ...existing styles... */
+
+.account-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+}
+
+.input-label {
+  font-size: 0.98rem;
+  color: #1976d2;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.input-field {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #f7f8fa;
+  margin-bottom: 0;
+}
+
+.input-field:focus {
+  outline: 2px solid #1976d2;
+  border-color: #1976d2;
+}
+
+.show-password-btn {
+  position: absolute;
+  right: 10px;
+  top: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.15rem;
+  color: #1976d2;
+  padding: 0;
+  outline: none;
+}
+
+.account-form-switch {
+  text-align: center;
+  margin-top: 6px;
+  font-size: 0.97rem;
+  color: #1976d2;
+}
+
+.account-link {
+  background: none;
+  border: none;
+  color: #1976d2;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 1em;
+  padding: 0;
+}
