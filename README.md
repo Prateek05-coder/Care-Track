@@ -150,10 +150,16 @@ npm start
 
 ---
 
-## **Acknowledgments**
-🚀 Care Track is the result of countless hours of development, problem-solving, and dedication to building a scalable healthcare solution. Special thanks to the open-source community, whose contributions in MongoDB, Node.js, React.js, and Firebase made this project possible.
-This project was designed and developed by G. Meher Prateek, a passionate full-stack web developer committed to improving healthcare technology. Grateful for the incredible resources, frameworks, and innovations that continue to shape the world of web development!🎯
+## **Acknowledgments** 
+🚀 **Care Track** is a project built with a deep commitment to improving healthcare technology through **MongoDB, Node.js, and React.js**. A big thank you to the **open-source community** for providing powerful tools that made this possible.  
+
+## **Author**  
+👤 **G. Meher Prateek**  
+📌 Full-Stack Developer passionate about scalable solutions.  
+- GitHub: [github.com/Prateek05-coder](https://github.com/Prateek05@coder) 
+- LinkedIn: [linkedin.com/in/g-meher-prateek](https://www.linkedin.com/in/g-meher-prateek)  
 
 ---
+
 
 
