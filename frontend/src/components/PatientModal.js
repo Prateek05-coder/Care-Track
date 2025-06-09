@@ -191,6 +191,7 @@ const PatientModal = ({ show, onClose, onSave, patient }) => {
                   type="email"
                   className="form-control"
                   id="email"
+                  name="email"
                   value={formData.email}
                   onChange={handleChange}
                   required
